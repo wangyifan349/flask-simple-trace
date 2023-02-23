@@ -1,0 +1,38 @@
+安装隐私保护插件：可以在Firefox的官方扩展市场下载一些常见的隐私保护插件，
+
+如uBlock Origin、Privacy Badger等，
+
+这些插件可以帮助您屏蔽跟踪脚本和阻止恶意广告等。
+
+
+
+打开火狐浏览器，地址栏输入 about:config 并回车。
+
+如果弹出警告窗口，点击“我承诺”，继续操作。
+
+在搜索框中输入 privacy.resistFingerprinting ，双击将值改为 true 。
+
+这将使 Firefox 防范指纹跟踪，使您的浏览器更难被识别并跟踪。
+
+在搜索框中输入 privacy.firstparty.isolate ，双击将值改为 true 。
+
+这将使 Firefox 的 First Party Isolation 功能启用，
+
+
+使网站无法通过 Cookie 交换来跨越不同的域名共享数据。
+
+在搜索框中输入 privacy.trackingprotection.fingerprinting.enabled ，
+
+双击将值改为 true 。这将使 Firefox 的 Tracking Protection 
+
+功能阻止更多的指纹跟踪器。
+在搜索框中输入 privacy.resistFingerprinting.letterboxing ，双击将值改为 true 。
+
+这将使 Firefox 通过将屏幕的内容放置在一定的“黑色条纹”中，防范屏幕尺寸的测量。
+
+完成以上步骤后，Firefox 将会更难被追踪和识别。
+
+VPN厂商通常拥有kill-switch功能可以避免ip泄露
+
+
+
