@@ -67,6 +67,26 @@ media.peerconnection.enabled: 禁用 WebRTC。这可以防止网站通过 WebRTC
 在搜索栏中输入“browser.tabs.remote.force-enable”，然后将其值修改为“true”，这样就强制开启多进程模式。
 
 
+
+toolkit.telemetry.enabled
+
+将该选项的值从默认值“true”更改为“false”，这将禁用Firefox发送遥测数据到Mozilla服务器。
+
+在about:config页面的搜索栏中输入“browser.safebrowsing.enabled”。
+
+将该选项的值从默认值“true”更改为“false”，这将禁用Firefox的安全浏览服务
+
+在about:config页面的搜索栏中输入“app.normandy.enabled”。
+
+将该选项的值从默认值“true”更改为“false”，这将禁用Firefox的Normandy服务
+
+
+
+
+
+
+
+
 并且在火狐的设置中开启请勿跟踪
 
 VPN厂商通常拥有kill-switch功能可以避免ip泄露,你可以开启VPN的这个功能，或者使用防火墙拦截，实现Kill-switch功能
