@@ -62,6 +62,11 @@ browser.urlbar.speculativeConnect.enabled: 禁用预连接。这会防止 Firefo
 
 media.peerconnection.enabled: 禁用 WebRTC。这可以防止网站通过 WebRTC 连接来泄露您的 IP 地址。
 
+在搜索栏中输入“browser.tabs.remote.autostart”，然后将其值修改为“true”，这样就开启了多进程模式。
+
+在搜索栏中输入“browser.tabs.remote.force-enable”，然后将其值修改为“true”，这样就强制开启多进程模式。
+
+
 并且在火狐的设置中开启请勿跟踪
 
 VPN厂商通常拥有kill-switch功能可以避免ip泄露,你可以开启VPN的这个功能，或者使用防火墙拦截，实现Kill-switch功能
